@@ -1,0 +1,41 @@
+/*
+BOX-MODEL AULA
+altura = height
+largura = width
+
+borda = border
+preenchimento da box = padding 
+espaço de fora da box = margin
+outline = fora do elemento
+
+tipos de caixa
+box level = sempre ocupa a largura total da tela
+inline level = usa somente o tamanho do elemento, podendo ter na mesma linha varios elementos.
+
+box level: 
+<div>
+h1 a h6
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+inline-level: 
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup> - <sub>
+<label>
+<button>
+<input>
+<select>
+
+*/
