@@ -1,0 +1,14 @@
+   /* Exemplo do uso da propriedade:
+
+div {
+            background-image: url(imagens/exemplo.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;   COLULA DIREITA E LINHA DA BASE
+        }
+        Obs:	vh	->	altura da view port (height)
+	        vw	->	largura da view port (width)
+
+
+Para a propriedade background-position, existem valores alternativos às sequências usualmente aplicadas e descritas acima ( coluna / linha ), 
+que são inseridos de forma única. O valor "center" algumas vezes é irrelevante para o "background-position", 
+já que quando inserimos os valores right, left, top ou bottom de forma ISOLADA, o center já é usado como padrão.  */

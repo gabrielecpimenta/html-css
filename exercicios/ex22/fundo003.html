@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posição dos Fundos</title>
+  <style>
+    div.bloco {
+      height: 200px;
+      border: 1px solid black;
+      margin: 10px;
+      border-radius: 10px;
+      background-image: url(imagens/wallpaper002.jpg);
+      /* Exemplo do uso da propriedade:
+
+div {
+            background-image: url(imagens/exemplo.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;   COLULA DIREITA E LINHA DA BASE
+        }
+        Obs:	vh	->	altura da view port (height)
+	        vw	->	largura da view port (width)
+
+
+Para a propriedade background-position, existem valores alternativos às sequências usualmente aplicadas e descritas acima ( coluna / linha ), que são inseridos de forma única. O valor "center" algumas vezes é irrelevante para o "background-position", já que quando inserimos os valores right, left, top ou bottom de forma ISOLADA, o center já é usado como padrão.  */
+    }
+
+    div#q1 {
+      background-position: left top;
+    }
+
+    div#q2 { 
+      background-position: left center;
+    }
+    
+    div#q3 {
+      background-position: right bottom;
+      
+    }
+
+    div#q4 {
+      background-position: center center;
+    }
+  </style>
+</head>
+<body>
+  <div class="bloco" id="q1">
+
+  </div>
+  <div class="bloco" id="q2">
+
+  </div>
+  <div class="bloco" id="q3">
+
+  </div>
+  <div class="bloco" id="q4">
+
+  </div>
+</body>
+</html>
